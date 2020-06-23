@@ -1,0 +1,27 @@
+body{
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+.controles{
+    display: flex;
+    padding-bottom: 10px;
+}
+.contenedor{
+    background-color: rgb(30, 30, 30);
+    height: 180px;
+    width: 200px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5%;
+    float: left;
+}
+.figura{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.slider.Y{
+    height: 100px;
+    -webkit-appearance: slider-vertical;
+}
