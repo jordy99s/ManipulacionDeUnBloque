@@ -24,9 +24,8 @@ header>.contenedor{
     width: 100px;
 }
 .slider.Y{
-    margin: 0;
-    height: 100px;
-    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 45px;
     transform: rotate(90deg);
 }
 .PosY{
@@ -45,8 +44,8 @@ header>.contenedor{
 select{
     width: 150px;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
+
 section{
     height: 150px;
     width: 150px;
@@ -66,8 +65,10 @@ section{
     height: 150px;
     border-radius: 100%;
 }
+
 .rombo{
     height: 150px;
     width: 150px;
+    border-radius: none;
     transform: rotate(45deg);
 }
