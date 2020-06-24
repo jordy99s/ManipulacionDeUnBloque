@@ -2,26 +2,67 @@ body{
     color: white;
     font-family: 'Heebo', sans-serif;
 }
-.controles{
+header{
     display: flex;
+    flex-direction: row;
     padding-bottom: 10px;
 }
-.contenedor{
+header>.contenedor{
     background-color: rgb(30, 30, 30);
-    height: 180px;
+    height: 200px;
     width: 200px;
     margin: 2px;
     text-align: center;
     border-radius: 5%;
     float: left;
 }
-.figura{
-    width: 150px;
-    height: 150px;
-    background-color: red;
+.hex{
+    margin-top: 15%;
+    width: 100px;
+}
+.slider{
+    width: 100px;
+}
+.slider.Y{
+    margin: 0;
+    height: 100px;
+    width: 80px;
+    transform: rotate(90deg);
+}
+.PosY{
+    margin-bottom: 0;
+}
+.posX{
+    margin-bottom: 30%;
+}
+.numTop{
+    margin: 0;
+}
+.numBot{
+    margin: 0;
 }
 
-.slider.Y{
-    height: 100px;
-    -webkit-appearance: slider-vertical;
+select{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section{
+    height: 150px;
+    width: 150px;
+    background: red;
+    position: relative;
+    margin-top: 70px;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border-radius: none;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
 }

@@ -8,50 +8,52 @@
     <title>Manipulación de un bloque</title>
 </head>
 <body>
-    <div class="controles">
+    <header>
         <div class="contenedor">
-            <p>Posición X</p>
-            0 <input type="range" min="0" max="800" value="0" class="slider" id="rango"> 800
+            <p class="posX">Posición X</p>
+            0 <input type="range" min="0" max="800" value="0" class="slider" id="rangoX"> 800
         </div>
         <div class="contenedor">
-            <p>Posición Y</p>
-            <!--<p>0</p>-->
-            <input type="range" min="0" max="600" value="0" class="slider Y" id="rango">
-            <!--<p>600</p>-->
+            <p class="PosY">Posición Y</p>
+            <p class="numTop">0</p>
+            <input type="range" min="0" max="600" value="0" class="slider Y" id="rangoY">
+            <p class="numBot">600</p>
         </div>
         <div class="contenedor">
-            <p>Tamaño</p>
-            0 <input type="range" min="0" max="2" value="1" step="0.1" class="slider" id="rango"> 2
+            <p class="posX">Tamaño</p>
+            0 <input type="range" min="0" max="2" value="1" step="0.1" class="slider" id="rangoT"> 2
         </div>
         <div class="contenedor">
-            <p>Opacidad</p>
-            0 <input type="range" min="0" max="1" step="0.1" value="0" class="slider" id="rango"> 1
+            <p class="posX">Opacidad</p>
+            0 <input type="range" min="0" max="1" step="0.1" value="1" class="slider" id="rangoO"> 1
         </div>
         <div class="contenedor">
             <p>Tipo de Forma</p>
-            <select name="forma">
-                <option value="square">Cuadro</option>
-                <option value="sircle">Círculo</option>
+            <select name="forma" id="lista">
+                <option value="square">Cuadrado</option>
+                <option value="circle">Círculo</option>
             </select>
-            <button type="button">Aceptar</button>
+            <button type="button" id="aceptar">Aceptar</button>
         </div>
         <div class="contenedor">
             <p>Hex</p>
-            #<input type="text">
+            # <input type="text" class="hex" id="hex">
         </div>
-        <div class="contenedor">
+        <div class="contenedor" id="color">
             <p>RGBA</p>
-            <input type="range" min="0" max="9" value="0" class="slider" id="rango"> r
-            <input type="range" min="0" max="9" value="0" class="slider" id="rango"> g
-            <input type="range" min="0" max="9" value="0" class="slider" id="rango"> b
-            <input type="range" min="0" max="9" value="0" class="slider" id="rango"> a
+            <input type="range" min="0" max="255" value="255" class="slider" id="rangoR"> r
+            <input type="range" min="0" max="255" value="0" class="slider" id="rangoG"> g
+            <input type="range" min="0" max="255" value="0" class="slider" id="rangoB"> b
+            <input type="range" min="0" max="1" step="0.1" value="1" class="slider" id="rangoA"> a
         </div>
         <div class="contenedor">
             <p>Personalizado</p>
         </div>
-    </div>
-    <div class="figura">
+    </header>
+    <div>
+        <section>
 
+        </section>
     </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
