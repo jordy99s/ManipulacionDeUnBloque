@@ -3,13 +3,13 @@ var y = document.querySelector("#rangoY");
 var size = document.querySelector("#rangoT");
 var op = document.querySelector("#rangoO");
 var list = document.getElementById("lista");
-var acept = document.getElementById("aceptar");
 var hex = document.querySelector("#hex");
 var r = document.getElementById("rangoR");
 var g = document.getElementById("rangoG");
 var b = document.getElementById("rangoB");
 var a = document.getElementById("rangoA");
 
+let acept = document.getElementById("aceptar");
 let color = document.getElementById("color");
 let figura = document.querySelector("section");
 
